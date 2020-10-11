@@ -1,127 +1,112 @@
 * {
 	margin: 0;
 	padding: 0; 
-	width: 100%;
-}
-
-body {
+	}
+	
+	body {
 	background-color: paleturquoise;
-}
-
-h1 {
+	}
+	
+	h1 {
 	border: 5px solid #0e2b3c;
-	margin: 10px 0 20px 1px;
-	padding: 25px 5px;
-	border-radius: 5px;
-	width: 89%;
-}
-
-h2 {
-	margin: 10px 0 20px 0;
 	width: 80%;
+	height: 40px;
+	}
+	
+	h2 {
 	border: 5px solid rebeccapurple;
-	height: 10px;
-}
-
-h3 {
-	margin: 15px;
+	width: 90%;
+	height: 15px;
+	}
+	
+	h3 {
 	border: 5px solid green;
-	width: 95%;
-	height: 10px;
-}
-
-header {
+	width: 90%;
+	height: 15px;
+	}
+	
+	header {
 	background-color: transparent;
 	width: 15%;
 	position: fixed;
-}
-
-nav {
-	height: 580px;
+	}
+	
+	nav {
 	border: 5px solid yellowgreen;
+	height: 500px;
 	width: 100%;
-}
-
-nav > ul > li {
+	}
+	
+	nav > ul > li {
 	text-align: center;
-	padding: 15px 0 0 0;
 	border: 5px solid olivedrab;
-	width: 95%;
-
-}
-
-nav > ul > li > a {
+	height: 30px;
+	padding-bottom: 15px;
+	}
+	
+	nav > ul > li > a {
 	text-decoration: none;
-	float: left;
 	border: 5px solid palevioletred;
-	width: 90%;
-}
-
-section ul li {
-	line-height: 10px;
-	border: 5px solid red;
-
-}
-
-section {
+	width: 80%;
+	float: left;
+	}
+	
+	section {
 	width: 80%;
 	float: right;
-	margin-right: 30px;
+	margin-right: 1px;
 	border: 5px solid orange;
+	}
 	
-}
-
-p {
+	section ul li {
+	border: 5px solid red;
+	width: 100%;
+	}
+	
+	p {
+	border: 5px solid seagreen;
 	padding: 20px;
 	line-height: 24px;
-	border: 5px solid seagreen;
+	}
 	
-}
-
-.zoom {
-  transition: transform .2s;
-}
-
-.zoom:hover {
-  transform: scale(1.3);
-}
-
-.icones {
-	text-align: center;
-}
-
-.container {
-	width: 99%;
+	.zoom {
+	transition: transform .2s;
+	}
+	
+	.zoom:hover {
+	transform: scale(1.1);
+	}
+	
+	.container {
+	width: 96%;
 	height: 400px;
 	background-color: rgb(140, 180, 250);
 	border: 5px solid rgb(27, 108, 179);
 	opacity: 0.9;
 	float: right;
-	margin-top:	120px;
+	margin-top: 120px;
 	text-align: justify;
 	border-radius: 10px;
+	}
 	
-}
-
-.top_container {
-	margin-top:	130px;
-}
-
-.bottom_container {
-	margin-bottom:	120px;
-}
-
-.skills_list,
-.tools_list,
-.languages_list,
-.career_list,
-.exams_list,
-.diplomas_list,
-.formation_list,
-.actions_list,
-.hobbies_list {
+	.container:first-child {
+	margin-top: 130px;
+	}
+	
+	.container:last-child {
+	margin-bottom: 120px;
+	}
+	
+	.skills_list,
+	.tools_list,
+	.languages_list,
+	.career_list,
+	.exams_list,
+	.diplomas_list,
+	.formation_list,
+	.actions_list,
+	.hobbies_list {
 	width: 90%;
 	height: 90%;
-	margin: 30px;
-}
-
+	margin: 15px;
+	}
