@@ -1,83 +1,83 @@
 * {
 	margin: 0;
 	padding: 0; 
-	}
+}
 	
-	body {
+body {
 	background-color: paleturquoise;
-	}
+}
 	
-	h1 {
+h1 {
 	border: 5px solid #0e2b3c;
 	width: 80%;
 	height: 40px;
-	}
+}
 	
-	h2 {
+h2 {
 	border: 5px solid rebeccapurple;
 	width: 90%;
 	height: 15px;
-	}
+}
 	
-	h3 {
+h3 {
 	border: 5px solid green;
 	width: 90%;
 	height: 15px;
-	}
+}
 	
-	header {
+header {
 	background-color: transparent;
 	width: 15%;
 	position: fixed;
-	}
+}
 	
-	nav {
+nav {
 	border: 5px solid yellowgreen;
 	height: 500px;
 	width: 100%;
-	}
+}
 	
-	nav > ul > li {
+nav > ul > li {
 	text-align: center;
 	border: 5px solid olivedrab;
 	height: 30px;
 	padding-bottom: 15px;
-	}
+}
 	
-	nav > ul > li > a {
+nav > ul > li > a {
 	text-decoration: none;
 	border: 5px solid palevioletred;
 	width: 80%;
 	float: left;
-	}
+}
 	
-	section {
+section {
 	width: 80%;
 	float: right;
 	margin-right: 1px;
 	border: 5px solid orange;
-	}
+}
 	
-	section ul li {
+section ul li {
 	border: 5px solid red;
 	width: 100%;
-	}
+}
 	
-	p {
+p {
 	border: 5px solid seagreen;
 	padding: 20px;
 	line-height: 24px;
-	}
+}
 	
-	.zoom {
+.zoom {
 	transition: transform .2s;
-	}
+}
 	
-	.zoom:hover {
+.zoom:hover {
 	transform: scale(1.1);
-	}
+}
 	
-	.container {
+.container {
 	width: 96%;
 	height: 400px;
 	background-color: rgb(140, 180, 250);
@@ -87,16 +87,54 @@
 	margin-top: 120px;
 	text-align: justify;
 	border-radius: 10px;
-	}
+}
 	
-	.container:first-child {
+.container:first-child {
 	margin-top: 130px;
-	}
+}
 	
-	.container:last-child {
+.container:last-child {
 	margin-bottom: 120px;
-	}
+}
 	
+.skills_list,
+.tools_list,
+.languages_list,
+.career_list,
+.exams_list,
+.diplomas_list,
+.formation_list,
+.actions_list,
+.hobbies_list {
+	width: 90%;
+	height: 90%;
+	margin: 15px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+	h1 {
+		width: 90%;
+	}
+		
+	nav {
+		height: 550px;
+	}
+		
+	nav > ul > li {
+		height: 40px;
+	}
+
+	nav > ul > li > a {
+		width: 85%;
+		margin-top: 15px;
+	}
+		
+	section {
+		width: 82%;
+		height: 90%;
+	}
+		
 	.skills_list,
 	.tools_list,
 	.languages_list,
@@ -106,7 +144,64 @@
 	.formation_list,
 	.actions_list,
 	.hobbies_list {
-	width: 90%;
-	height: 90%;
-	margin: 15px;
+		width: 95%;
 	}
+		
+	.container {
+		width: 98%;
+	}
+		
+	.container:last-child {
+		margin-bottom: 0;
+	}
+
+	.container:first-child {
+		margin-top: 100px;
+	}
+	}
+		
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+		
+	h1 {
+		width: 92%;
+	}
+
+	nav > ul > li > a {
+		width: 85%;
+		margin-top: 15px;
+	}
+		
+	.container {
+		width: 99%;
+	}
+		
+	.skills_list,
+	.tools_list,
+	.languages_list,
+	.career_list,
+	.exams_list,
+	.diplomas_list,
+	.formation_list,
+	.actions_list,
+	.hobbies_list {
+		width: 97%;
+	}
+}
+	
+@media screen and (min-width: 1200px) {
+	
+	h1 {
+		width: 95%;
+	}
+		
+	nav > ul > li > a {
+		width: 90%;
+		margin-top: 20px;
+	}
+		
+	nav {
+		height: 580px;
+	}
+}
+
+
